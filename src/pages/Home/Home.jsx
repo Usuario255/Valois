@@ -48,9 +48,9 @@ function Home() {
         </div>
       </div>
       <div className="c2Btn">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-ie79LgsnuOLCTYBo6kU1a_q5pIqtLwf9QY3dlnj5XncMA/viewform">
+        <Link to={'/form'}>
           <button className="btn">QUERO ME CANDIDATAR!</button>
-        </a>
+        </Link>
       </div>
 
       <div className="content3">
@@ -140,10 +140,9 @@ function Home() {
         </div>
 
         <div className="c4Btn">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-ie79LgsnuOLCTYBo6kU1a_q5pIqtLwf9QY3dlnj5XncMA/viewform">
-
-            <button className="btn" >QUERO ME CANDIDATAR!</button>
-          </a>
+          <Link to={'/form'}>
+          <button className="btn">QUERO ME CANDIDATAR!</button>
+        </Link>
 
         </div>
 

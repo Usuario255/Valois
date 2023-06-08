@@ -3,7 +3,7 @@ function Form() {
   return (
     <>
     
-{/* //       <div className='d-flex justify-content-center'>
+{/* //       <div className='d-flex justify-content-center'
 //         <div className="col-1"></div>
 //         <form >
 //           <i class="fa fa-thermometer-quarter" aria-hidden="true"></i>

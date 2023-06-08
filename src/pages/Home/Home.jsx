@@ -4,6 +4,7 @@ import logo1 from '../../assets/logo1.jpeg';
 import logo2 from '../../assets/logo2.jpeg';
 import logo3 from '../../assets/logo3.jpeg';
 import { FaMoneyBill, FaHandshake, FaChartLine, FaSuitcase, FaEdit, FaTag, FaChartBar, FaMobileAlt, FaBox } from 'react-icons/fa'
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -140,9 +141,10 @@ function Home() {
         </div>
 
         <div className="c4Btn">
-          <Link to={'/form'}>
-          <button className="btn">QUERO ME CANDIDATAR!</button>
-        </Link>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeB-ie79LgsnuOLCTYBo6kU1a_q5pIqtLwf9QY3dlnj5XncMA/viewform">
+
+            <button className="btn" >QUERO ME CANDIDATAR!</button>
+          </a>
 
         </div>
 
